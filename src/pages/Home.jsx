@@ -1,10 +1,11 @@
 import React from 'react'
-import Card from '../components/Card'
+import Weather from '../components/Weather'
 
 const Home = () => {
     return (
-       <Card/>
+        <>
+            <Weather />
+        </>
     )
 }
-
 export default Home
